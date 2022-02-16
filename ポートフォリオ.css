@@ -1,0 +1,161 @@
+.back {
+  text-align: center;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  margin: 30px 70px 30px 30px;
+}
+
+ul li p {
+  margin-bottom: 20px;
+  font-family: 'Festive', cursive;
+  font-family: 'Redressed', cursive;
+  font-family: 'Rowdies', cursive;
+}
+
+@media (min-width: 600px) {
+  nav {
+    display: none;
+  }
+  nav h1 {
+    display: none;
+  }
+}
+
+section {
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.backimage {
+  background-image: url(images/work-g0d89f6f59_640.jpg);
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.backimage .title {
+  font-family: 'Redressed', cursive;
+  font-family: 'Rowdies', cursive;
+  color: white;
+  font-size: 50px;
+}
+
+.backimage p {
+  color: #f8f8ff;
+}
+
+.self-introduction p {
+  text-align: center;
+}
+
+.programmer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.programmer img {
+  float: left;
+  height: 80%;
+}
+
+.programmer p {
+  float: right;
+  padding-left: 10px;
+}
+
+.skill {
+  margin-top: 30px;
+}
+
+.skill img {
+  float: right;
+  height: 95%;
+}
+
+.skill h1 {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.skill p {
+  text-align: center;
+  padding-right: 10px;
+  display: block;
+}
+
+.cost {
+  margin-top: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.access {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .back {
+    display: none;
+  }
+  .back ul {
+    display: none;
+  }
+  .back li {
+    display: none;
+  }
+  .nav .btn-menu {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 5rem 1rem;
+  }
+  .nav main-nav {
+    background: grey;
+    width: 0;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    right: 0;
+    overflow: hidden;
+  }
+  .nav main-nav li {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .nav main-nav li a {
+    display: block;
+  }
+  .nav main-nav open-menu {
+    width: 100%;
+  }
+  main img {
+    max-height: 60vh;
+    width: auto;
+    text-align: center;
+  }
+  .programmer {
+    display: block;
+  }
+  .skill {
+    text-align: center;
+    display: block;
+  }
+  .cost {
+    display: block;
+  }
+}
+/*# sourceMappingURL=ポートフォリオ.css.map */
